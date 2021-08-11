@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="principalTitle">
+            <h1>Tabela IMC</h1>
+        </div>
+    </header>
+    <main>
+        <section class="containerTitleLists">
+            <div class="titleListImc">
+                <h2>IMC</h2>
+            </div>
+            <div class="titleListResult">
+                <h2>Resultado</h2>
+            </div>
+        </section>
+        <section class="principalContainer">
+            <div class="listImc">
+                <ul>
+                    <li><span>Menos do que 18,5</span></li>
+                    <li><span>Entre 18,5 e 24,9</span></li>
+                    <li><span>Entre 25 e 29,9</span></li>
+                    <li><span>Entre 30 e 34,9</span></li>
+                    <li><span>Entre 35 e 39,9</span></li>
+                    <li><span>Mais do que 40</span></li>
+                </ul>
+            </div>
+            <div class="listResult">
+                <ul>
+                    <li><span>Abaixo do peso</span></li>
+                    <li><span>Peso normal</span></li>
+                    <li><span>Sobrepeso</span></li>
+                    <li><span>Obesidade grau 1</span></li>
+                    <li><span>Obesidade grau 2</span></li>
+                    <li><span>Obesidade grau 3</span></li>
+                </ul>
+            </div>
+        </section>
+        <form id="form" method="post">
+            <div class="inputTitle">
+                <h1>Calcule seu IMC</h1>
+            </div>
+            <div class="inputWeight">
+                <label for="">Peso:</label>
+                <input id="inputWeight"type="text">
+            </div>
+            <div class="inputHeight">
+                <label for="">Altura:</label>
+                <input id="inputHeight" type="text">
+            </div>
+            <div class="buttonSubmit">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <section class="resultContainer">
+            <div id="result">
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

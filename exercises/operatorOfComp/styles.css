@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+header {
+    max-width: 640px;
+    margin: 100px auto 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+main {
+    max-width: 640px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.principalTitle {
+    display: block;
+    margin-left: 29px;
+}
+.principalTitle h1 {
+    display: block;
+    font-size: 40px;
+    padding: 40px 0 0 0;
+}
+
+.principalContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerTitleLists {
+    display: flex;
+}
+
+.titleListImc {
+    display: block;
+    font-size: 19px;
+    align-items: center;
+    margin:0 153px 0 30px;
+}
+
+.titleListResult {
+    display: flex;
+    font-size: 19px;
+    flex-direction: initial;
+    margin-left: 157px;
+}
+
+.listImc ul {
+    display: block;
+    margin-right: 90px;
+}
+
+.listResult ul {
+    display: block;
+    margin-left: 90px;
+}
+
+.inputContainer {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inputTitle {
+    display: flex;
+    margin: 40px 0 40px 0;
+}
+
+.inputTitle h1 {
+    display: block;
+    margin-left: 25px;
+}
+
+.inputWeight {
+    display: block;
+    font-size: 22px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 0 0 40px 9px;
+}
+
+.inputWeight input {
+    height: 40px;
+    width: 543px
+}
+
+.inputWeight input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+.inputHeight {
+    display: block;
+    font-size: 22px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 0 0 40px 9px;
+}
+
+.inputHeight input {
+    height: 40px;
+    width: 543px
+}
+
+.inputHeight input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+.buttonSubmit {
+    display: block;
+    margin-left: 29px;
+}
+
+.buttonSubmit button {
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    width: 543px;
+    cursor: pointer;
+}
+
+.buttonSubmit button:hover {
+    background: var(--primary-color-darker);
+}
+
+.resultSpan, .resultBadSpan {
+    display: block;
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+    margin-left: 29px;
+    width: 543px;
+}
+
+.resultBadSpan {
+    background: rgb(255, 150, 150);
+}
