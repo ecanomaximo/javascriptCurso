@@ -1,15 +1,18 @@
-/ > maior que
-/ < menor que
-/ >= maior que ou igual a
-/ <= menor que ou igual a
-/ == igualdade
-/ === estritamente igual a 
-/ != diferente a
-/ !== estritamente diferente a 
+/ > maior que.
+/ < menor que.
+/ >= maior que ou igual.
+/ <= menor que ou igual.
+/ == igualdade.
+/ === estritamente igual.
+/ != diferente a.
+/ !== estritamente diferente.
 
-/ && AND
-/ || OR
-/ ! NOT
+/ && AND.
+/ || OR.
+/ ! NOT.
+
+/ ? substitui if em operações menores.
+/ : substitui else em operações menores.
 
 / createElement() função que cria um elemento html.
 / appendChild() função que insere um filho.
