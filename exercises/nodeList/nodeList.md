@@ -1,0 +1,1 @@
+// getComputedStyle() = pega o estilo de um elemento html
