@@ -4,3 +4,4 @@ concat() - concatena arrays.
 ... spread - espalha o array.
 
 filter() - sempre retorna um array, com a mesma quantidade de elementos ou menos.
+map() - irá alterar valores do array.
