@@ -5,3 +5,4 @@ concat() - concatena arrays.
 
 filter() - sempre retorna um array, com a mesma quantidade de elementos ou menos.
 map() - irá alterar valores do array.
+reduce() - reduz o array em um único objeto.
